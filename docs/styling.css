@@ -1,0 +1,122 @@
+
+body {
+background-color: beige;
+font-family: arial, helvetica, sans-serif;
+font-size: 18px;
+}
+
+.navbar {
+position: sticky;
+top: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    }
+
+.navbar a {
+text-align: center;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 26px;
+}
+
+p {
+        line-height: 150%;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+img{
+display:block;
+    border-radius: 15px;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+
+.header {
+        line-height: 150%;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.pfp {
+    border-radius: 15px;
+    width: 200px;
+}
+
+.title{
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex:4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.main{
+    flex:4;
+    padding:1vw;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+div.flex-container {
+    flex-wrap: wrap;
+}
+
+img.thumbnail {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 10px;
+  left: 10px;
+  right: 22px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 140px;
+  transition: .5s ease;
+  opacity:0;
+  border-radius: 15px;
+  font-size: x-small;
+  padding: 30px;
+  text-align: center;
+  font-family: arial, helvetica, sans-serif;
+}
+
+figure:hover .overlay {
+  opacity: 1;
+}
+
+div > figure{
+position: relative;
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin:initial;
+flex-wrap: wrap;
+ }

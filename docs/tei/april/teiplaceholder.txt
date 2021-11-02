@@ -1,0 +1,1 @@
+This is a placeholder for TEI directories. Please delete this when actual TEI files are added to this folder. 

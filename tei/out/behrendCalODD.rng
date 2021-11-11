@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-11-11T18:25:09Z. .
+Schema generated from ODD source 2021-11-11T22:18:42Z. .
 TEI Edition: Version 4.2.2. Last updated on
 	9th April 2021, revision 609a109b1
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
@@ -1299,29 +1299,53 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.nameLike.agent">
       <choice>
          <ref name="tei_name"/>
+         <ref name="tei_orgName"/>
+         <ref name="tei_persName"/>
       </choice>
    </define>
    <define name="tei_model.nameLike.agent_alternation">
       <choice>
          <ref name="tei_name"/>
+         <ref name="tei_orgName"/>
+         <ref name="tei_persName"/>
       </choice>
    </define>
    <define name="tei_model.nameLike.agent_sequence">
       <ref name="tei_name"/>
+      <ref name="tei_orgName"/>
+      <ref name="tei_persName"/>
    </define>
    <define name="tei_model.nameLike.agent_sequenceOptional">
       <optional>
          <ref name="tei_name"/>
+      </optional>
+      <optional>
+         <ref name="tei_orgName"/>
+      </optional>
+      <optional>
+         <ref name="tei_persName"/>
       </optional>
    </define>
    <define name="tei_model.nameLike.agent_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_name"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_orgName"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_persName"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.nameLike.agent_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_name"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_orgName"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_persName"/>
       </oneOrMore>
    </define>
    <define name="tei_model.segLike">
@@ -1807,6 +1831,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.stageLike_sequenceRepeatable">
       <notAllowed/>
    </define>
+   <define name="tei_model.eventLike">
+      <notAllowed/>
+   </define>
    <define name="tei_model.global.edit">
       <choice>
          <ref name="tei_gap"/>
@@ -1816,6 +1843,25 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <choice>
          <ref name="tei_model.lLike"/>
          <ref name="tei_model.pLike"/>
+      </choice>
+   </define>
+   <define name="tei_model.persStateLike">
+      <choice>
+         <ref name="tei_persName"/>
+      </choice>
+   </define>
+   <define name="tei_model.personLike">
+      <choice>
+         <ref name="tei_org"/>
+         <ref name="tei_person"/>
+      </choice>
+   </define>
+   <define name="tei_model.personPart">
+      <choice>
+         <ref name="tei_model.biblLike"/>
+         <ref name="tei_model.eventLike"/>
+         <ref name="tei_model.persStateLike"/>
+         <ref name="tei_name"/>
       </choice>
    </define>
    <define name="tei_model.placeNamePart">
@@ -1873,6 +1919,11 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <oneOrMore>
          <ref name="tei_model.placeNamePart_sequenceRepeatable"/>
       </oneOrMore>
+   </define>
+   <define name="tei_model.orgPart">
+      <choice>
+         <ref name="tei_model.eventLike"/>
+      </choice>
    </define>
    <define name="tei_model.publicationStmtPart.agency">
       <notAllowed/>
@@ -2214,6 +2265,11 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
             <data type="nonNegativeInteger"/>
          </attribute>
       </optional>
+   </define>
+   <define name="tei_model.placeLike">
+      <choice>
+         <ref name="tei_place"/>
+      </choice>
    </define>
    <define name="tei_p">
       <element name="p">
@@ -3680,6 +3736,30 @@ Sample values include: 1] header; 2] footer; 3] pageNum (page number); 4] lineNu
          </attribute>
       </optional>
    </define>
+   <define name="tei_orgName">
+      <element name="orgName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_persName">
+      <element name="persName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="tei_placeName">
       <element name="placeName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(place name) contains an absolute or relative place name. [13.2.3. Place Names]</a:documentation>
@@ -3689,6 +3769,147 @@ Sample values include: 1] header; 2] footer; 3] pageNum (page number); 4] lineNu
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.personal.attributes"/>
          <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_org">
+      <element name="org">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization) provides information about an identifiable organization such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_model.headLike"/>
+            </zeroOrMore>
+            <choice>
+               <zeroOrMore>
+                  <ref name="tei_model.pLike"/>
+               </zeroOrMore>
+               <zeroOrMore>
+                  <choice>
+                     <ref name="tei_model.labelLike"/>
+                     <ref name="tei_model.nameLike"/>
+                     <ref name="tei_model.placeLike"/>
+                     <ref name="tei_model.orgPart"/>
+                     <ref name="tei_model.milestoneLike"/>
+                  </choice>
+               </zeroOrMore>
+            </choice>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.noteLike"/>
+                  <ref name="tei_model.biblLike"/>
+               </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_model.personLike"/>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.sortable.attributes"/>
+         <optional>
+            <attribute name="role">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a primary role or classification for the organization.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_person">
+      <element name="person">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(person) provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
+         <choice>
+            <oneOrMore>
+               <ref name="tei_model.pLike"/>
+            </oneOrMore>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.personPart"/>
+                  <ref name="tei_model.global"/>
+               </choice>
+            </zeroOrMore>
+         </choice>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.sortable.attributes"/>
+         <optional>
+            <attribute name="role">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a primary role or classification for the person.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="sex">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sex of the person.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="age">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies an age group for the person.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_place">
+      <element name="place">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(place) contains data about a geographic location [13.3.4. Places]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_model.headLike"/>
+            </zeroOrMore>
+            <choice>
+               <zeroOrMore>
+                  <ref name="tei_model.pLike"/>
+               </zeroOrMore>
+               <zeroOrMore>
+                  <choice>
+                     <ref name="tei_model.labelLike"/>
+                     <ref name="tei_model.placeStateLike"/>
+                     <ref name="tei_model.eventLike"/>
+                     <ref name="tei_name"/>
+                  </choice>
+               </zeroOrMore>
+            </choice>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.noteLike"/>
+                  <ref name="tei_model.biblLike"/>
+               </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.placeLike"/>
+               </choice>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.sortable.attributes"/>
          <empty/>
       </element>
    </define>

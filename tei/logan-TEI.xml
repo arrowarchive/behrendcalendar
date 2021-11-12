@@ -73,7 +73,10 @@
                      ahead of her. This is along the left-hand side of the page.</figDesc>
                </figure>
                <ab hand="#pencil">
-                  <lb/>Molly on <lb/>snowshoes <lb/>that <persName>Mr. Weir</persName> <lb/>got. <lb/>Pretty picture
+                  <lb/>Molly on 
+                  <lb/>snowshoes 
+                  <lb/>that <persName>Mr. Weir</persName> 
+                  <lb/>got. <lb/>Pretty picture
                   <lb/>is it not?!</ab>
                <ab><add hand="#redPen" place="bottom-right">Love from Molly</add></ab>
             </div2>
@@ -106,6 +109,86 @@
                   If Warren is her first born child, then her joy from being around him makes a lot
                   more sense. </note>
             </div2>
+            
+            
+            
+            
+            
+            
+            <div2 xml:id="e-1909-03-30"
+               facs="https://arrowarchive.github.io/behrendcalendar/photos/march/1909-03-30.jpg">
+               <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
+                  NEW BRITAIN, CONN.</fw>
+               <ab hand="#calendarPub">
+                  <lb/><date when="1909-03-30">March 30, 1909. <lb/>Tuesday</date>
+               </ab>
+               <figure hand="multicolor">
+                  <figDesc resp="#lhering">
+                     Two rabbits (or hares) next to each other. They are both dressed
+                     in fun and colorful clothing. This is right below the date on the middle of the page.</figDesc>
+               </figure>
+               <ab hand="#pencil" rend="smallcaps">
+                  <lb/>Latest styles
+                  <lb/>in <emph style="underline">hare</emph> dressing</ab>
+               <ab><add hand="#redPen" place="bottom-right" rend="smallcaps">see the<emph style="underline">joke</emph>?</add></ab>
+               
+               <note resp="#lhering">I looks like Mary was in a creative mood on this day. Her drawing was quite playful
+               and she also made a pun with the word "hare" meaning both "a rabbit" and "hair". The joke being that
+               whaen you hear the words "hare dressing" you think about hair being stlyed but in this picture it refers
+               to two rabbits wearing in clothes.</note>
+            </div2>
+            
+            <div2 xml:id="e-1909-03-31"
+               facs="https://arrowarchive.github.io/behrendcalendar/photos/march/1909-03-31.jpg">
+               <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
+                  NEW BRITAIN, CONN.</fw>
+               <ab hand="#calendarPub">
+                  <lb/><date when="1909-03-31">March 31, 1909. <lb/>Wednesday</date>
+               </ab>
+               <ab hand="#pencil">
+                  4.30 AM.
+               </ab>
+               <figure hand="multicolor">
+                  <figDesc resp="#lhering">
+                     A room is drawn, and within the room is a bed, nightstand with an alarm clock on it, and a window
+                  with a view of the sun rising above the horizon. A human is drawn getting out of bed and running over to the
+                  alarm clock to shut it off.</figDesc>
+               </figure>
+               <ab hand="#pencil" rend="smallcaps">
+                  "An early spring."</ab>
+               <ab ><add hand="#redPen" place="bottom" rend="cursive">
+                  <lb/>This is you sringing out 
+                  <lb/>of bed, ready to murder 
+                  <lb/>the alarm clock!</add></ab>
+               
+               <note resp="#lhering">Mary has drawn a picture of this bedroom scene and once again uses a pun.
+               She says "an early spring". This both referenceing the person in the image getting out of bed early, and
+               the season of spring coming early.</note>
+            </div2>
+            
+            <div2 xml:id="e-1909-04-01"
+               facs="https://arrowarchive.github.io/behrendcalendar/photos/april/1909-04-01.jpg">
+               <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
+                  NEW BRITAIN, CONN.</fw>
+               <ab hand="#calendarPub">
+                  <lb/><date when="1909-04-01">April 1, 1909. <lb/>Thursday</date>
+               </ab>
+               <figure rend="cutout">
+                  <figDesc resp="#lhering">
+                     A short man it a big a pencil behing his ear is shown holding up a piece of paper with a drawing on it.
+                  The drawing on the paper is of another goofy looking man. The image appears to be cut out (probably from a magazine)
+                  and pasted onto the page.</figDesc>
+               </figure>
+               <ab ><add hand="#redPen" place="bottom" rend="cursive">
+                  <lb/>This is your 
+                  <lb/>picture!</add></ab>
+               <ab hand="#pencil" rend="smallcaps">
+                  Look underneath, please!</ab>
+              <!--lnh: It appears that there is a sticky note on the page with this text written on it. I wasn't sure how to code that.-->
+               <note resp="#lhering">The words "Look underneath, please!" are written on a sticky note. It is possible that
+               there is more text underneath the sticky note.</note>
+            </div2>
+            
 
          </div1>
       </body>

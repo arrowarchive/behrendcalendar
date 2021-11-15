@@ -122,6 +122,63 @@
             </attDef>
           </attList>
         </elementSpec>
+        <elementSpec ident="figure" mode="change">
+          <attList>
+            <attDef ident="rend" mode="change" usage="req">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="pencil">
+                  <desc versionDate="2021-11-14" xml:lang="en">for a picture drawn in pencil</desc>
+                </valItem>
+                <valItem mode="add" ident="cutout">
+                  <desc versionDate="2021-11-14" xml:lang="en">for an image cut out from another source and attached to the sheet</desc>
+                </valItem>
+                <valItem mode="add" ident="color">
+                  <desc versionDate="2021-11-14" xml:lang="en">for a picture drawn in color</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="ab" mode="change">
+          <attList>
+            <attDef ident="rend" mode="change" usage="req">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="cursive">
+                  <desc versionDate="2021-11-14" xml:lang="en">to describe cursive handwriting</desc>
+                </valItem>
+                <valItem mode="add" ident="smallcaps">
+                  <desc versionDate="2021-11-14" xml:lang="en">for lettering in capital letters, with a combination of larger and smaller letters</desc>
+                </valItem>
+                <valItem mode="add" ident="blockcaps">
+                  <desc versionDate="2021-11-14" xml:lang="en">for lettering in capital letters, all letters the same size</desc>
+                </valItem>
+                <valItem mode="add" ident="print">
+                  <desc versionDate="2021-11-14" xml:lang="en">for printed lettering</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="add" mode="change">
+          <attList>
+            <attDef ident="rend" mode="change" usage="req">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="cursive">
+                  <desc versionDate="2021-11-14" xml:lang="en">to describe cursive handwriting</desc>
+                </valItem>
+                <valItem mode="add" ident="smallcaps">
+                  <desc versionDate="2021-11-14" xml:lang="en">for lettering in capital letters, with a combination of larger and smaller letters</desc>
+                </valItem>
+                <valItem mode="add" ident="blockcaps">
+                  <desc versionDate="2021-11-14" xml:lang="en">for lettering in capital letters, all letters the same size</desc>
+                </valItem>
+                <valItem mode="add" ident="print">
+                  <desc versionDate="2021-11-14" xml:lang="en">for printed lettering</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
       </schemaSpec>
     </body>
   </text>

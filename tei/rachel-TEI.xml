@@ -82,7 +82,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/june/1909-06-12.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-06-12">June 12, 1909. <lb/>Saturday</date>
                </ab>
                <figure rend="pencil">
@@ -103,7 +103,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/june/1909-06-16.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-06-16">June 16, 1909. <lb/>Wednesday</date>
                </ab>
                <figure rend="cutout">
@@ -141,7 +141,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/june/1909-06-19.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-06-19">June 19, 1909. <lb/>Saturday</date>
                </ab>
                <figure  hand="#pencil" rend="color">
@@ -159,7 +159,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/july/1909-07-13.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-07-13">July 13, 1909. <lb/>Tuesday</date>
                </ab>
                <figure rend="cutout">
@@ -188,7 +188,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/august/1909-08-03.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-08-03">August 3, 1909. <lb/>Tuesday</date>
                </ab>
                <figure  hand="#pencil" rend="color">
@@ -211,7 +211,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/august/1909-08-09.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-08-09">August 9, 1909. <lb/>Monday</date>
                </ab>
                <figure  hand="#multicolor" rend="color">
@@ -244,7 +244,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/august/1909-08-14.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-08-14">August 14, 1909. <lb/>Saturday</date>
                </ab>
                <figure  hand="#multicolor" rend="color">
@@ -263,7 +263,7 @@
                <!-- rgg: need help transcribing this! -->
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-08-16">August 16, 1909. <lb/>Monday</date>
                </ab>
                <figure  hand="#print">
@@ -282,7 +282,7 @@
                facs="https://arrowarchive.github.io/behrendcalendar/photos/august/1909-08-18.jpg">
                <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                   NEW BRITAIN, CONN.</fw>
-               <ab hand="#calendarPub">
+               <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-08-18">August 18, 1909. <lb/>Wednesday</date>
                </ab>
                <figure hand="#blackpen">

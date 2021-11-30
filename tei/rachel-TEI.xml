@@ -148,7 +148,7 @@
                   <figDesc resp="#rgerzevske">
                      Someone (possibly <persName>Mary</persName>) is tending to a man's hair. She appears to be rubbing in shampoo ( or "scalp food", as she called it) and the woman appears to be singing or talking. The image is drawn in pencil and what appears to be watercolor, with the woman's hair obscuring the year number.</figDesc>
                </figure>
-               <ab hand="#blackpen" rend="blocktext">
+               <ab hand="#blackpen" rend="blockcaps">
                   <!--ODD addition: customize @rend to "smallcaps" or "cursive" -->
                   <lb/>"Rubbing it in!"</ab>
                
@@ -251,7 +251,7 @@
                   <figDesc resp="#rgerzevske">
                      There is no image here, just red pen.</figDesc>
                </figure>
-               <ab><lb/><quote>To live in hearts or leave behind,
+               <ab rend="cursive"><lb/><quote>To live in hearts or leave behind,
                   <lb/>is not to die.</quote>
                   <lb/><name>Campbell</name></ab>
                
@@ -266,7 +266,7 @@
                <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-08-16">August 16, 1909. <lb/>Monday</date>
                </ab>
-               <figure  hand="#print">
+               <figure hand="#print" rend="cursive">
                   <figDesc resp="#rgerzevske">
                      There is a photo of two men and two women walking down a street, with two other people walking in the background. Everyone in the foreground is wearing black, while everyone in the background is dressed in brighter colors.</figDesc>
                </figure>
@@ -285,7 +285,7 @@
                <ab rend="print" hand="#calendarPub">
                   <lb/><date when="1909-08-18">August 18, 1909. <lb/>Wednesday</date>
                </ab>
-               <figure hand="#blackpen">
+               <figure hand="#blackpen" rend="pencil">
                   <figDesc resp="#rgerzevske">
                      This is either a bunch of rabbits hopping together or one rabbit moving really quickly. Don't know for sure.</figDesc>
                </figure>

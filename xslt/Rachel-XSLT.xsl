@@ -21,14 +21,14 @@
                     <ul>
                         <xsl:apply-templates select="$MBCal//text//date" mode="toc">
                             
-                            <xsl:sort select="descendant::date[1]"/>
+                            <xsl:sort select="@when"/>
                         </xsl:apply-templates>
                     </ul>
                 </section>
                 <section id="fulltext">
-                    <xsl:apply-templates select="$MBCal//tei">
+                    <xsl:apply-templates select="$MBCal//div2">
                         
-                        <xsl:sort select="descendant::date[1]"/>
+                        <xsl:sort select="descendant::date/@when"/>
                     </xsl:apply-templates>
                     
                 </section>
@@ -40,18 +40,42 @@
         
     </xsl:template>
     
-    <xsl:template match="date">
+    <xsl:template match="date" mode="toc">
         <li>
-            <a href="#{../ab/date/@xml:id}">
-                <xsl:apply-templates select="../ab/date"/>
+            <a href="#e-{@when}">
+                <xsl:apply-templates mode="toc"/>
             </a>
         </li>
     </xsl:template>
     
     <xsl:template match="div2">
-        <p>
-            <span class="fw, ab, lb, date, figure, figDesc, persName, add, note"><xsl:apply-templates/></span>
-        </p>
+        <section id="{@xml:id}">
+            <div class="facsblock">
+                <figure>
+                    <img src="{@facs}" alt="descendant::date"/>
+                    <figcaption><xsl:apply-templates select="descendant::figDesc"/></figcaption>
+                </figure>
+                
+                <div class="transcript">
+                    <xsl:apply-templates select="descendant::ab"/>
+                </div>
+            </div>
+            <div class="note">
+                <xsl:apply-templates select="descendant::note"/>
+            </div>
+            
+        </section>
+    </xsl:template>
+    
+    <xsl:template match="note">
+        <p class="note"><xsl:apply-templates/><xsl:text>—</xsl:text><xsl:value-of select="@resp"/></p>
+    </xsl:template>
+    
+    
+    <xsl:template match="lb">
+        <br/>
+    </xsl:template>
+    <xsl:template match="lb" mode="toc">
     </xsl:template>
     
     <!--  <xsl:template match="facs">

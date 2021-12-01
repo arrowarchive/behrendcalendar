@@ -15,6 +15,17 @@
                 <link rel="stylesheet" type="text/css" href="../styling.css"/>
             </head> 
             <body>
+                <div class="navbar">
+                    <h1 class="title">Mary Behrend's 1909 Calendar</h1>
+                    <a href="../index.html" class="header">Home</a>
+                    <a href="../about.html" class="header">History</a>
+                    <a href="../authors.html" class="header">Authors</a>
+                    <a href="../archive.html" class="header">Archive</a>
+                    <!--  <a>additional info</a>
+            <a>additional info</a> -->
+                    <a href="https://github.com/arrowarchive/behrendcalendar" class="header">Code View</a>
+                    
+                </div>
                 <h1>Rachel's XSLT</h1>
                  <section id="toc">
                     <h2>Table of Contents</h2>
@@ -76,6 +87,7 @@
         <br/>
     </xsl:template>
     <xsl:template match="lb" mode="toc">
+        <xsl:text> </xsl:text>
     </xsl:template>
     
     <!--  <xsl:template match="facs">

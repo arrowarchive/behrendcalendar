@@ -56,63 +56,6 @@
          <div1 type="calendarCollection">
             <!--div1 just wraps the whole collection. -->
 
-            <div2 xml:id="e-1909-03-12"
-               facs="https://arrowarchive.github.io/behrendcalendar/photos/march/1909-03-12.jpg">
-               <!--div2 is for each calendar entry. 
-                 1. We can construct an xml:id (to hold a distinct identifier) for this entry:
-              it is just the letter "e" followed by the yyyy-mm-dd for the entry, with each piece separated by a hyphen.
-                 2. the @facs attribute points to the web URL where we're hosting the calendar images.
-              -->
-               <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
-                  NEW BRITAIN, CONN.</fw>
-               <ab rend="print" hand="#calendarPub">
-                  <lb/><date when="1909-03-12">March 12, 1909. <lb/>Friday</date>
-               </ab>
-               <figure hand="#multicolor">
-                  <figDesc resp="#zmurphy">Drawing of a woman in snowshoes named Molly pointing
-                     ahead of her. This is along the left-hand side of the page.</figDesc>
-               </figure>
-               <ab hand="#pencil">
-                  <lb/>Molly on 
-                  <lb/>snowshoes 
-                  <lb/>that <persName>Mr. Weir</persName> 
-                  <lb/>got. <lb/>Pretty picture
-                  <lb/>is it not?!</ab>
-               <ab><add hand="#redPen" place="bottom-right">Love from Molly</add></ab>
-            </div2>
-
-            <div2 xml:id="e-1909-07-13"
-               facs="https://arrowarchive.github.io/behrendcalendar/photos/july/1909-07-13.jpg">
-               <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
-                  NEW BRITAIN, CONN.</fw>
-               <ab rend="print" hand="#calendarPub">
-                  <lb/><date when="1909-07-13">July 13, 1909. <lb/>Tuesday</date>
-               </ab>
-               <figure rend="cutout">
-                  <figDesc resp="#rgerzevske #ebeshero"><!--ebb: As I zoom in on the image, it's clear this is printed, probably cut out from a magazine. -->
-                     An infant is seen from behind. Looking closely, the
-                     image was made with a different type of paper. It was likely first printed in a magazine, cut
-                     out, and glued onto the page.</figDesc>
-               </figure>
-               <ab hand="#blackPen" rend="smallcaps">
-                  <!--ODD addition: customize @rend to "smallcaps" or "cursive" -->
-                  <lb/>That little spot in the 
-                  <lb/>back of his neck 
-                  <lb/>is the sweetest spot to
-                  <lb/>kiss I know 
-                  <lb/>so I kiss him there 
-                  <lb/>and <emph style="underline">hold him close</emph>
-                  <lb/>just because I love him so.</ab>
-
-               <note resp="#rgerzevske">It's clear that Mary is talking about her son Warren here. From the way she
-                  talks about him, he is a few months old (or less) and she absolutely adores him.
-                  If Warren is her first born child, then her joy from being around him makes a lot
-                  more sense. </note>
-            </div2>
-            
-            
-            
-            
             <!--lnh: I was not sure when and when not to use the add tags in some places-->
             <div2 xml:id="e-1909-03-30"
                facs="https://arrowarchive.github.io/behrendcalendar/photos/march/1909-03-30.jpg">

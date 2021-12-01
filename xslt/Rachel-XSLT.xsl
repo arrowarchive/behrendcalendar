@@ -63,8 +63,8 @@
         <section id="{@xml:id}">
             <div class="facsblock">
                 <figure>
-                    <img src="{@facs}" alt="descendant::date"/>
-                    <figcaption><xsl:apply-templates select="descendant::figDesc"/></figcaption>
+                    <img src="{@facs}" alt="{descendant::date}: {descendant::figDesc ! normalize-space()}" title="{descendant::date}: {descendant::figDesc ! normalize-space()}"/>
+                    <figcaption><xsl:apply-templates select="descendant::figDesc"/><xsl:text>—</xsl:text><xsl:value-of select="descendant::figDesc/@resp"/></figcaption>
                 </figure>
                 
                 <div class="transcript">

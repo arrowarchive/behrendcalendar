@@ -151,3 +151,8 @@ section#page div.transcription {
 section#page div.transcription p {
     font-size: 12px;
 }
+
+.entry{
+    width: 500px;
+    height: 666px;
+}

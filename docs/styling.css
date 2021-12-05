@@ -55,6 +55,13 @@ img {
     font-family: arial, helvetica, sans-serif;
 }
 
+.header:hover {
+        line-height: 150%;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    color:yellow;
+    }
+
 .pfp {
     border-radius: 15px;
     width: 200px;
@@ -155,4 +162,18 @@ section#page div.transcription p {
 .entry{
     width: 500px;
     height: 666px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+ color: black;   
+}
+
+div .footer a{
+  color: blue;  
+}
+
+div .footer a:visited{
+    color: blueviolet;
 }

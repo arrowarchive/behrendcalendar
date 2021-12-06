@@ -180,6 +180,8 @@ div.footer a, div.footer p {
   color: white;  background-color:black;
 }
 
-div .footer a:visited{
-    color: blueviolet;
+div.footer a:visited{
+    /*color: blueviolet;*/
+    color:yellow;
 }
+div.footer p img{display:inline;}

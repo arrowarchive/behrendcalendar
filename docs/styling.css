@@ -167,13 +167,17 @@ section#page div.transcription p {
 }
 
 .footer{
-    position: absolute;
-    bottom: 0px;
- color: black;   
+   /* ebb: position:absolute means this always floats on the bottom 
+    * of a screen, even on a long page where you scroll PAST thte bottom 
+    * of a screen. So I think you want this to remain at the very bottm? */
+    /*  position: absolute; */
+    background-color: gray;
+    bottom: 0px; 
+ color: white;   
 }
 
-div .footer a{
-  color: blue;  
+div.footer a, div.footer p {
+  color: white;  background-color:black;
 }
 
 div .footer a:visited{

@@ -195,11 +195,13 @@ div.footer p img{display:inline;}
   * we want to be grid containers*/
  section[id^="e-1909"] {
  background-color:lavender;
+ border: thin solid maroon;
  display:grid;
  grid-auto-flow:column; 
  grid-template-columns:800px 200px; 
  grid-column-gap:20px;
-border: thin solid maroon;
+
+
  }
  
  /*  let's try creating a grid for the div.facsblock, so all the text appears in a new column to the right of the image.  */
@@ -208,7 +210,8 @@ border: thin solid maroon;
  background-color:white; 
 display:grid;
 grid-auto-flow:column;
-grid-template-columns: 400px 400px;
+grid-template-columns: 400px 400px /*minmax(auto, 400px)*/; 
+/*  ebb: need to look up how minmax works.  */
 grid-column-gap:20px;
 }
 

@@ -197,7 +197,7 @@ div.footer p img{display:inline;}
  background-color:lavender;
  display:grid;
  grid-auto-flow:column; 
- grid-template-columns:800px 500px; 
+ grid-template-columns:800px 200px; 
  grid-column-gap:20px;
 border: thin solid maroon;
  }

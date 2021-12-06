@@ -2,6 +2,7 @@ body {
     background-color: beige;
     font-family: arial, helvetica, sans-serif;
     font-size: 18px;
+    z-index:0
 }
 
 .navbar {
@@ -11,6 +12,7 @@ body {
     background-color: black;
     text-align: center;
     font-family: arial, helvetica, sans-serif;
+    z-index:1
 }
 
 .navbar a {

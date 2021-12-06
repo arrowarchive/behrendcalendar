@@ -45,7 +45,7 @@ p {
 }
 
 img {
-    display: block;
+    /*display: block;*/
     border-radius: 15px;
     flex-direction: row;
     margin-bottom: 20px;
@@ -98,7 +98,7 @@ img.thumbnail {
 }
 
 .overlay {
-    position: absolute;
+    position: absolute; 
     bottom: 10px;
     left: 10px;
     right: 22px;
@@ -185,3 +185,39 @@ div.footer a:visited{
     color:yellow;
 }
 div.footer p img{display:inline;}
+
+/* 2021-12-06 ebb: The following CSS is for the Reading View to make a CSS grid */
+/*  section elements wrap each unit of calendar page information, so this is our 
+ * CSS grid container */
+ 
+ /*  I'm using an atttribute selector to look for sections 
+  * whose id attributes START WITH this string: e-1909  since those are the sections
+  * we want to be grid containers*/
+ section[id^="e-1909"] {
+ background-color:lavender;
+ display:grid;
+ grid-auto-flow:column; 
+ grid-template-columns:800px 500px; 
+ grid-column-gap:20px;
+border: thin solid maroon;
+ }
+ 
+ /*  let's try creating a grid for the div.facsblock, so all the text appears in a new column to the right of the image.  */
+ 
+ section[id^="e-1909"] div.facsblock {
+ background-color:white; 
+display:grid;
+grid-auto-flow:column;
+grid-template-columns: 400px 400px;
+grid-column-gap:20px;
+}
+
+/* Maybe we'd like to control the spaces between the sections, so we can make a big
+ * grid of the surrounding section#fulltext that holds all the calendar entries.
+ * This time, we'll organize it in rows (vertically). I'm only doing this to specify a gap to appear in between each section. 
+ *  */
+section#fulltext {
+    display:grid;
+    grid-auto-flow:row;
+    grid-row-gap:50px;
+}

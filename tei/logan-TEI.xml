@@ -72,7 +72,7 @@
                <ab hand="#pencil" rend="smallcaps">
                   <lb/>Latest styles
                   <lb/>in <emph style="underline">hare</emph> dressing</ab>
-               <ab rend="cursive"><add hand="#redPen" place="bottom-right" rend="cursive">see the<emph style="underline">joke</emph>?</add></ab>
+               <ab rend="cursive"><add hand="#redPen" place="bottom-right" rend="cursive">see the <emph style="underline">joke</emph>?</add></ab>
                
                <note resp="#lhering">It looks like Mary was in a creative mood on this day. Her drawing was quite playful
                and she also made a pun with the word "hare" meaning both "a rabbit" and "hair". The joke being that

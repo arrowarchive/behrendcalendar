@@ -70,7 +70,6 @@ body {
     width: 100%;
     background-color: black;
     text-align: center;
-    font-family: arial, helvetica, sans-serif;
     z-index:1
 }
 
@@ -100,7 +99,7 @@ h3 {
 p {
     line-height: 150%;
     font-size: 18px;
-    font-family: 'Valera Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 img {
@@ -127,7 +126,7 @@ img {
     width: 200px;
 }
 
-.title {
+.pageName {
 font-family: 'Merienda', cursive;
     color: white;
 }

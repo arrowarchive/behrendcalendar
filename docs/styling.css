@@ -119,7 +119,6 @@ img {
 .header:hover {
         line-height: 150%;
     font-size: 18px;
-    font-family: arial, helvetica, sans-serif;
     color:yellow;
     }
 
@@ -129,7 +128,7 @@ img {
 }
 
 .title {
-font-family: 'Zen Antique', cursive;
+font-family: 'Merienda', cursive;
     color: white;
 }
 

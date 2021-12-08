@@ -276,24 +276,27 @@ grid-column-gap:2em;
 padding:1em;
 }
 
-/* ebb: Here we are making the image size scale proportionally with the browser size:  */
-div.facsblock figure img {
+/* ebb: Here we are making the image size scale proportionally with the browser size: 
+ * The CSS selector syntax reads: style the <img> element this way when its parent is a figure,
+ *  and the figure's parent is something with class="facsblock".  */
+div.facsblock > figure > img {
  object-fit:contain;
  width:100%;
    
 }
 
-
+/* This CSS selector syntax reads: Style the <div class="note"> when it's a descendant
+ * of a <section> with an @id that starts with "e-1909". */
  section[id^="e-1909"] div.note  {
      padding:1em;
  }
 
-/* Maybe we'd like to control the spaces between the sections, so we can make a big
+/* The rule belows styles the OUTERMOST grid container. Maybe we'd like to control the spaces between the sections, so we can make a big
  * grid of the surrounding section#fulltext that holds all the calendar entries.
  * This time, we'll organize it in rows (vertically). I'm only doing this to specify a gap to appear in between each section. 
  *  */
 section#fulltext {
-    width:80%;
+    width:85%;
     margin:auto;
     display:grid;
     grid-auto-flow:row;

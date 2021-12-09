@@ -66,17 +66,17 @@
               -->
                     <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                         NEW BRITAIN, CONN.</fw>
-                    <ab hand="#calendarPub">
+                    <ab rend="print" hand="#calendarPub">
                         <lb/><date when="1909-03-12">March 12, 1909. <lb/>Friday</date>
                     </ab>
-                    <figure hand="#multicolor">
+                    <figure rend="#multicolor">
                         <figDesc resp="#acolemanreeves">Drawing of a woman in snowshoes named Molly pointing
                             ahead of her. This is along the left-hand side of the page.</figDesc>
                     </figure>
-                    <ab hand="#pencil">
+                    <ab rend="cursive">
                         <lb/>Molly on <lb/>snowshoes <lb/>that <persName>Mr. Weir</persName> <lb/>got. <lb/>Pretty picture
                         <lb/>is it not?!</ab>
-                    <ab><add hand="#redPen" place="bottom-right">Love from Molly</add></ab>
+                    <ab hand="#redPen" rend="cursive">Love from Molly</ab>
                 </div2>
                 
                 <div2 xml:id="e-1909-02-16"
@@ -84,13 +84,15 @@
                     
                     <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
                         NEW BRITAIN, CONN.</fw>
-                    <ab hand="#calendarPub">
+                    <ab rend="print" hand="#calendarPub">
                         <lb/><date when="1909-02-16"> February 16, 1909. <lb/>Tuesday</date>
                     </ab>
-                    <figure hand="#blackandwhite">
+                    <figure rend="color" hand="#">
                         <figDesc resp="#acolemanreeves"> A man by the water looking through a magnifying glass.
-                            <ab typed="blackink"> <!-- finish trasncribing here -->
+                            <ab hand="#multicolor" rend="cursive"> <!-- finish trasncribing here -->
                 </div2>
+                
+                
                 
                 
                 <div2 xml:id="e-1909-02-17"

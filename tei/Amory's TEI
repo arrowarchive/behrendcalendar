@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="out/behrendCalODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/behrendCalODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="out/behrendCalODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/behrendCalODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -57,27 +57,7 @@
                 <!--div1 just wraps the whole collection. -->
                 
                 
-                <div2 xml:id="e-1909-03-12"
-                    facs="https://arrowarchive.github.io/behrendcalendar/photos/march/1909-03-12.jpg">
-                    <!--div2 is for each calendar entry. 
-                 1. We can construct an xml:id (to hold a distinct identifier) for this entry:
-              it is just the letter "e" followed by the yyyy-mm-dd for the entry, with each piece separated by a hyphen.
-                 2. the @facs attribute points to the web URL where we're hosting the calendar images.
-              -->
-                    <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
-                        NEW BRITAIN, CONN.</fw>
-                    <ab rend="print" hand="#calendarPub">
-                        <lb/><date when="1909-03-12">March 12, 1909. <lb/>Friday</date>
-                    </ab>
-                    <figure rend="#multicolor">
-                        <figDesc resp="#acolemanreeves">Drawing of a woman in snowshoes named Molly pointing
-                            ahead of her. This is along the left-hand side of the page.</figDesc>
-                    </figure>
-                    <ab rend="cursive">
-                        <lb/>Molly on <lb/>snowshoes <lb/>that <persName>Mr. Weir</persName> <lb/>got. <lb/>Pretty picture
-                        <lb/>is it not?!</ab>
-                    <ab hand="#redPen" rend="cursive">Love from Molly</ab>
-                </div2>
+             
                 
                 <div2 xml:id="e-1909-02-16"
                     facs="https://arrowarchive.github.io/behrendcalendar/docs/photos/february/1909-02-16.jpg">
@@ -89,7 +69,10 @@
                     </ab>
                     <figure rend="color" hand="#">
                         <figDesc resp="#acolemanreeves"> A man by the water looking through a magnifying glass.
-                            <ab hand="#multicolor" rend="cursive"> <!-- finish trasncribing here -->
+                         
+                        </figDesc>
+                    </figure>
+                        <ab hand="#multicolor" rend="cursive"> <!-- finish trasncribing here --></ab>
                 </div2>
                 
                 
@@ -103,8 +86,9 @@
                     <ab hand="#calendarPub">
                         <lb/><date when="1909-02-17">February 17, 1909. <lb/>Wednesday</date>
                     </ab>
+                    <figure><figDesc resp="#acolereeves"></figDesc>
                     </figure>
-                    <ab hand="#pencil" rend"#cursive">
+                    <ab hand="#pencil" rend="#cursive">
                         <lb/> Each morning very early <lb/> When all is dark and still<lb/> <persName>Earnest</persName> goes off into likely blaclness <lb/>To work at Hammermill <lb/> I really think he's very good <lb/>to get up when it's dark <lb/> tho he says he doesn't mind <lb/> It cant (blank) (blank) a lark!
                     </ab>
                     <ab><add hand="#redPen" rend="#cursive" place="bottom-right">(blank) is it still dark when you arise?</add></ab>
@@ -123,7 +107,7 @@
                     <figure hand="#redink">
                         <figDesc resp="#acolemanreeves">A large question mark in the center of the paper.</figDesc>
                     </figure>
-                    <add hand="#redPen" rend="#cursive" place="bottom-right">.. this is the day, this...later. done. the</add></ab> <!-- finish trasncribing here -->
+                   <ab><add hand="#redPen" rend="#cursive" place="bottom-right">.. this is the day, this...later. done. the</add></ab> <!-- finish trasncribing here -->
                 </div2>
                 
                 
@@ -158,7 +142,7 @@
                         <lb/><date when="1909-03-17">March 17, 1909. <lb/>Wednesday</date>
                     </ab>
                     <figure hand="#brownink">
-                        <figDesc resp="#acolemanreeves" place="bottom-right" "top half of the paper" "dispersed" > Green Shambrocks dispersed throughout the paper. Two snakes drawn on the top of the paper. A drawing of the hammerill center bottom right croner. . </figDesc>
+                        <figDesc resp="#acolemanreeves"> Green Shambrocks dispersed throughout the paper. Two snakes drawn on the top of the paper. A drawing of the hammerill center bottom right croner. . </figDesc>
                     </figure>
                     <ab hand="#brownink">
                         <lb/>ST. Patrick was a usefuf saint<lb/> He frightened all the snakes away- <lb/>I wish he'd try his art on smoke  <lb/>around the hammermill some day! 
@@ -236,8 +220,9 @@
                     <ab hand="#pencil">
                         <lb/>4:30 AM  <lb/>snowshoes <lb/> An early spring."
                         <lb/>is it not?!</ab>
-                    <ab><add hand="#redPen" rend="#cursive"place="bottom-right"> <lb/> This is you spring out <lb/> of bed, ready to mruder <lb/> the alarm clock!</add></ab> 
+                    <ab><add hand="#redPen" rend="#cursive" place="bottom-right"> <lb/> This is you spring out <lb/> of bed, ready to mruder <lb/> the alarm clock!</add></ab> 
                 </div2>
+         
                 
                 <div2 xml:id="e-1909-07-13"
                     facs="https://arrowarchive.github.io/behrendcalendar/photos/july/1909-07-13.jpg">
@@ -271,3 +256,4 @@
             </div1>
         </body>
     </text>
+</TEI>

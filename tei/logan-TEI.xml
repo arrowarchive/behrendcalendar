@@ -127,8 +127,8 @@
                <ab hand="#pencil" rend="smallcaps">
                   Look underneath, please!</ab>
               <!--lnh: It appears that there is a sticky note on the page with this text written on it. I wasn't sure how to code that.-->
-               <note resp="#lhering">The words "Look underneath, please!" are written on a sticky note. It is possible that
-               there is more text underneath the sticky note.</note>
+               <note resp="#lhering">The words "Look underneath, please!" are written on a sticky note. Under the stick note there is more text that
+                  reads "APRIL FOOL!!" and is underlined.</note>
             </div2>
             
             <div2 xml:id="e-1909-04-06"

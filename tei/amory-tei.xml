@@ -57,7 +57,24 @@
                 <!--div1 just wraps the whole collection. -->
                 
                 
-             
+                <div2 xml:id="e-1909-01-30"
+                    facs="https://arrowarchive.github.io/behrendcalendar/photos/february/1909-01-30.jpg">
+                    
+                    <fw place="top-center" hand="#calendarPub">COPYRIGHT 1908, BY FRIENDSHIP CALENDAR CO.
+                        NEW BRITAIN, CONN.</fw>
+                    <ab rend="print" hand="#calendarPub">
+                        <lb/><date when="1909-01-30"> January 30, 1909. <lb/>Saturday</date>
+                    </ab>
+                    <figure rend="cutout" hand="#blackpen">
+                        <figDesc resp="#acolemanreeves"> A man with a mustache laying in bad.
+                            
+                        </figDesc>
+                    </figure>
+                    <ab hand="#pencil" rend="cursive"> E.R.B.
+                    <lb/>"That dammned old clock
+                    <lb/>gives me a</ab>
+                </div2>
+                
                 
                 <div2 xml:id="e-1909-02-16"
                     facs="https://arrowarchive.github.io/behrendcalendar/photos/february/1909-02-16.jpg">
@@ -67,12 +84,14 @@
                     <ab rend="print" hand="#calendarPub">
                         <lb/><date when="1909-02-16"> February 16, 1909. <lb/>Tuesday</date>
                     </ab>
-                    <figure rend="color" hand="#">
-                        <figDesc resp="#acolemanreeves"> A man by the water looking through a magnifying glass.
+                    <figure rend="color" hand="#multicolor">
+                        <figDesc resp="#acolemanreeves"> Mr Behrend holding a large bug.
                          
                         </figDesc>
                     </figure>
-                        <ab hand="#multicolor" rend="cursive"> <!-- finish trasncribing here --></ab>
+                        <ab hand="#pencil" rend="cursive"> Mr. Behrend finds a 
+                            <lb/> big bug!</ab>
+                        <ab hand="#redPen" rend="cursive"> I wonder if you have found many lately</ab>
                 </div2>
                 
                 

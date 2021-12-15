@@ -26,7 +26,7 @@
                     <a href="https://github.com/arrowarchive/behrendcalendar" class="header">Code View</a>
                     
                 </div>
-                <h1>Rachel's XSLT</h1>
+                <h1>Group XSLT</h1>
                  <section id="toc">
                     <h2>Table of Contents</h2>
                     <ul>

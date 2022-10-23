@@ -27,9 +27,15 @@
                   <ul class="ssSearchInCheckboxList">
                      <li><input type="checkbox" title="Citations" value="Citations" id="ssCtx3" class="staticSearch_searchIn"/><label for="ssCtx3">Citations</label></li>
                      <li><input type="checkbox" title="Notes" value="Notes" id="ssCtx2" class="staticSearch_searchIn"/><label for="ssCtx2">Notes</label></li>
+                     <li><input type="checkbox" title="Photos" value="Photos" id="ssCtx4" class="staticSearch_searchIn"/><label for="ssCtx4">Photos</label></li>
                      <li><input type="checkbox" title="Quotations" value="Quotations" id="ssCtx1" class="staticSearch_searchIn"/><label for="ssCtx1">Quotations</label></li>
+                     <li><input type="checkbox" title="Transcript" value="Transcript" id="ssCtx5" class="staticSearch_searchIn"/><label for="ssCtx5">Transcript</label></li>
                   </ul>
                </fieldset>
+            </div>
+            <div class="ssDateFilters">
+               <fieldset class="ssFieldset" title="Calendar Date" id="ssDate1">
+                  <legend>Calendar Date</legend><span><label for="ssDate1_from">From: </label><input type="text" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$" title="Calendar Date" id="ssDate1_from" class="staticSearch.date staticSearch_date" placeholder="1909-01-30" onchange="this.reportValidity()"/></span><span><label for="ssDate1_to">To: </label><input type="text" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$" title="Calendar Date" id="ssDate1_to" class="staticSearch.date staticSearch_date" placeholder="1909-01-30" onchange="this.reportValidity()"/></span></fieldset>
             </div><span class="postFilterSearchBtn"><button id="ssDoSearch2">Search</button></span></form>
          <div id="ssSearching">Searching...</div>
          <div id="ssResults"></div>

@@ -300,3 +300,11 @@ section#fulltext {
     grid-auto-flow:row;
     grid-row-gap:50px;
 }
+
+span.person.on {color:#ffff00}
+
+span.location.on {color:#00fffb}
+
+span.critter.on {color:#1aff00}
+
+span.object.on {color:#ff9cd2}

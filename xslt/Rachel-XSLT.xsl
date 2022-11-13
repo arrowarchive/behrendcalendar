@@ -13,6 +13,8 @@
             <head>
                 <title><xsl:apply-templates select="descendant::title"/></title>
                 <link rel="stylesheet" type="text/css" href="../styling.css"/>
+                <link /><script type="text/javascript" src="java2.js">
+                    /**/</script>
             </head> 
             <body>
                 <div class="navbar">
